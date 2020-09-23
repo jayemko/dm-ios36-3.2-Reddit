@@ -23,7 +23,7 @@ class PostController {
         let funnyComponentURL = rComponentURL.appendingPathComponent(StringConstants.endpointFunny)
         let finalURL = funnyComponentURL.appendingPathExtension(StringConstants.extensionJSON)
         
-        print("\(#function): \(#line) -- \(funnyComponentURL)")
+        print("\(#function): \(#line) -- \(finalURL)")
         
         URLSession.shared.dataTask(with: finalURL) { (data, _, error) in
             if let error = error {
@@ -50,8 +50,7 @@ class PostController {
     
     static func fetchThumbnailForPost(post: Post, completion: @escaping (Result<UIImage, PostError>) -> Void) {
         guard let thumbnailURL = post.thumbnail else { return completion(.failure(.invalidURL))}
-        print("\(#function): \(#line) -- \(thumbnailURL)")
-        
+        print("[\(#function):\(#line)] -- URL: \(thumbnailURL)")
         URLSession.shared.dataTask(with: thumbnailURL) { (data, _, error) in
             if let error = error {
                 return completion(.failure(.thrownImageError(error)))
