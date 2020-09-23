@@ -9,4 +9,6 @@ import Foundation
 
 enum PostError : LocalizedError{
     case invalidURL
+    case thrownError(Error)
+    case invalidData
 }
