@@ -15,6 +15,7 @@
 		3CCB8625251BAEEA009F4C79 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB8624251BAEEA009F4C79 /* Post.swift */; };
 		3CCB8629251BB5E9009F4C79 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB8628251BB5E9009F4C79 /* PostController.swift */; };
 		3CCB862C251BB6B9009F4C79 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB862B251BB6B9009F4C79 /* PostError.swift */; };
+		3CCB8633251BBEA1009F4C79 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB8632251BBEA1009F4C79 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3CCB8624251BAEEA009F4C79 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		3CCB8628251BB5E9009F4C79 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		3CCB862B251BB6B9009F4C79 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
+		3CCB8632251BBEA1009F4C79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		3CCB85FC251BAA1E009F4C79 = {
 			isa = PBXGroup;
 			children = (
+				3CCB8632251BBEA1009F4C79 /* README.md */,
 				3CCB8607251BAA1E009F4C79 /* 3.3-Reddit */,
 				3CCB8606251BAA1E009F4C79 /* Products */,
 			);
@@ -172,6 +175,7 @@
 			files = (
 				3CCB8615251BAA20009F4C79 /* LaunchScreen.storyboard in Resources */,
 				3CCB8612251BAA20009F4C79 /* Assets.xcassets in Resources */,
+				3CCB8633251BBEA1009F4C79 /* README.md in Resources */,
 				3CCB8610251BAA1E009F4C79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
