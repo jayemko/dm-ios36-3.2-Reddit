@@ -16,6 +16,9 @@
 		3CCB8629251BB5E9009F4C79 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB8628251BB5E9009F4C79 /* PostController.swift */; };
 		3CCB862C251BB6B9009F4C79 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB862B251BB6B9009F4C79 /* PostError.swift */; };
 		3CCB8633251BBEA1009F4C79 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB8632251BBEA1009F4C79 /* README.md */; };
+		3CCB8636251BE4B3009F4C79 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB8635251BE4B3009F4C79 /* PostTableViewCell.swift */; };
+		3CCB863B251BE958009F4C79 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB863A251BE958009F4C79 /* PostListTableViewController.swift */; };
+		3CCB863E251BEFAA009F4C79 /* ErrorActionSheetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB863D251BEFAA009F4C79 /* ErrorActionSheetExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		3CCB8628251BB5E9009F4C79 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		3CCB862B251BB6B9009F4C79 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
 		3CCB8632251BBEA1009F4C79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3CCB8635251BE4B3009F4C79 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		3CCB863A251BE958009F4C79 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		3CCB863D251BEFAA009F4C79 /* ErrorActionSheetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorActionSheetExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		3CCB861F251BAA39009F4C79 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3CCB8635251BE4B3009F4C79 /* PostTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,7 +110,8 @@
 		3CCB8620251BAA40009F4C79 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3CCB8628251BB5E9009F4C79 /* PostController.swift */,
+				3CCB8639251BE942009F4C79 /* Model Controllers */,
+				3CCB8638251BE93C009F4C79 /* View Controllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,8 +120,25 @@
 			isa = PBXGroup;
 			children = (
 				3CCB862B251BB6B9009F4C79 /* PostError.swift */,
+				3CCB863D251BEFAA009F4C79 /* ErrorActionSheetExtension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3CCB8638251BE93C009F4C79 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB863A251BE958009F4C79 /* PostListTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3CCB8639251BE942009F4C79 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB8628251BB5E9009F4C79 /* PostController.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +214,12 @@
 			files = (
 				3CCB862C251BB6B9009F4C79 /* PostError.swift in Sources */,
 				3CCB8625251BAEEA009F4C79 /* Post.swift in Sources */,
+				3CCB863B251BE958009F4C79 /* PostListTableViewController.swift in Sources */,
 				3CCB8629251BB5E9009F4C79 /* PostController.swift in Sources */,
 				3CCB8609251BAA1E009F4C79 /* AppDelegate.swift in Sources */,
+				3CCB863E251BEFAA009F4C79 /* ErrorActionSheetExtension.swift in Sources */,
 				3CCB860B251BAA1E009F4C79 /* SceneDelegate.swift in Sources */,
+				3CCB8636251BE4B3009F4C79 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
